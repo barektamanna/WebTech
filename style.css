@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(211, 211, 27);
+}
+.form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+span{
+    color: red;
+}

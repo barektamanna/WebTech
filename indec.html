@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+   
+    <div class="form">
+        <form action="" method="post" onsubmit="return validateForm()">
+            <table>
+                 <h1 style="color: blue;">This is form</h1>
+                <tr>
+                    <td><label for="name">name</label></td>
+                    <td><input type="text" name="" id="name"></td> <br>
+                    <td><span id="nameError"></span></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="" id="email"></td>
+                    <td><span id="emailError"></span></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password</label></td>
+                    <td><input type="password" name="" id="pass"></td> <br>
+                    <td><span id="passError"></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
